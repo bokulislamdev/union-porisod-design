@@ -1,0 +1,93 @@
+@media only screen and (max-width:1200px) {}
+
+
+@media only screen and (max-width:991px) {
+
+    .menubar > ul > li > a {
+        padding: 5px !important;
+    }
+
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .header-text input {
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .header-text form button {
+        padding: 5px 10px;
+    }
+
+    .header-text a.login-btn {
+        padding: 5px 10px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .logo {
+        display: inline-block;
+    }
+
+    .sub-btn a span {
+        padding: 0 6px;
+    }
+
+    .sub-menu > a {
+        font-size: 14px;
+    }
+
+    .logo a img {
+        width: 110px;
+        margin-right: 0;
+    }
+
+    .logo {
+        text-align: center;
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .header-text h1 {
+        text-align: center;
+    }
+
+
+
+}
+
+@media only screen and (max-width:575px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo a img {
+        width: 102px;
+    }
+
+    .footer-head h6 {
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .footer-head ul li a {
+        font-size: 14px;
+    }
+
+    .header-text h1 {
+        font-size: 35px;
+    }
+
+    .about-box h6 {
+
+        font-size: 26px;
+    }
+
+
+}
+
+@media only screen and (max-width:400px) {}

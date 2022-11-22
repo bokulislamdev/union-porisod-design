@@ -1,0 +1,77 @@
+:root {
+    --pc: #191919;
+    --sc: #375DE6;
+    --wc: #ffffff;
+    --bc: #000000;
+    --gc: #cccccc;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Serif Bengali', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--pc);
+    background-image: url(../images/photos/bg_main.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+p {
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pc);
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--pc);
+}
+
+button {
+    border: none;
+}
+
+.custom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.custom-row::after {
+    content: '';
+    clear: both;
+    display: table;
+}

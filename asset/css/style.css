@@ -1,0 +1,312 @@
+@import "custom.css";
+
+
+
+/*HEADER*/
+header {
+    background: var(--sc);
+}
+
+.header-text  h1{
+    font-size: 50px;
+    color: var(--wc);
+    font-weight: 800;
+}
+.header-text form label{
+    font-weight: 500;
+    color: var(--wc);
+    font-size: 18px;
+}
+.header-text input{
+    width: 80px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+.header-text form button{
+    border: none;
+    color: var(--bc);
+    background: var(--wc);
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+.header-text a.login-btn{
+    color: var(--wc);
+    background: var(--sc);
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 5px 20px;
+    border: 1px solid var(--wc);
+    margin-left: 50px;
+    font-size: 18px;
+}
+.header-text a.login-btn:hover{
+    background: var(--wc);
+    color: var(--bc);
+}
+.header-text a.login-btn i{
+    padding-right: 5px;
+}
+.logo a img {
+    width: 135px;
+    margin-right: 30px;
+}
+nav{
+    background: #3587D0;
+}
+
+.logo.menubar-mobile {
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.menubar {
+    text-align: left;
+}
+
+.menubar > ul > li {
+    display: inline-block;
+}
+
+.menubar > ul > li > a {
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px;
+    -webkit-transition: .3s;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    color: var(--wc);
+}
+
+.menubar > ul > li > a:hover {
+    color: var(--bc);
+}
+
+.menubar ul li a img {
+    width: 16px;
+    margin-right: 2px;
+}
+
+.menubar ul li a.login {
+    border: 1px solid var(--pc);
+}
+
+.menubar ul li a.login:hover {
+    background: var(--sc);
+    color: var(--wc);
+    border: 1px solid var(--sc);
+}
+
+.sub-btn {
+    position: relative;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--wc);
+    width: 150px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.sub-btn:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(100%);
+    -ms-transform: scaleY(100%);
+    transform: scaleY(100%);
+}
+
+.sub-menu > a {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    text-transform: capitalize;
+
+    font-weight: 500;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    color: var(--sc);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.sub-menu > a:hover {
+    background: var(--sc);
+    color: var(--wc) !important;
+}
+
+.menubar .active {
+    background: var(--sc);
+}
+
+.sub-btn a span {
+    padding: 0 10px;
+    font-weight: 500;
+    color: #C9C6C6;
+}
+
+.sub-btn a i {
+    color: #C9C6C6;
+    font-size: 14px;
+}
+
+/*HEADER END*/
+
+/*link */
+.necessery-link a img{
+    width: 100%;
+}
+.necessery-link a{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    background: var(--wc);
+}
+/*link  end*/
+
+/*FOOTER SECTION*/
+footer{
+    font-size: 15px;
+}
+.footer-bg img{
+    width: 100%;
+}
+.footer-link a{
+    font-weight: 500;
+    padding: 0 5px;
+    border-right: 1px solid var(--gc);
+    margin: 5px 0;
+}
+.footer-link a:hover{
+    color: #5a5a5a;
+    text-decoration: underline;
+}
+.footer-link a::after{
+    border-right
+}
+.copyright img{
+    width: 120px;
+    margin-left: 30px;
+}
+/*FOOTER SECTION END*/
+
+
+.slide-notic {
+    border: 1px solid #ccc;
+    position: relative;
+    background: var(--box-bg);
+    height: 38px;
+}
+
+.marque {
+    padding: 0;
+    margin: 0;
+}
+
+.marque a {
+    text-decoration: none;
+    color: var(--pc);
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.marque a i {
+    font-size: 10px;
+    margin-right: 8px;
+}
+
+.marque-fix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--sc);
+    height: 100%;
+}
+
+.marque-fix span {
+    padding: 10px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--wc);
+}
+
+.marque {
+    padding: 6px 0;
+}
+
+/*about section*/
+
+/*staff*/
+.staf-profile .staff-head{
+ text-align: center;
+    font-size: 30px;
+}
+.staf-profile .staff-head::after{
+    display: block;
+    content: '';
+    height: 3px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background: var(--pc);
+}
+/*staff end*/
+.about-image img{
+    width: 100%;
+}
+.about-box h6{
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.staf-profile-box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eaeaea;
+    text-align: center;
+}
+.staf-profile-box img{
+    width: 60%;
+    margin-bottom: 15px;
+    background: var(--wc);
+}
+.staf-profile-box h4{
+    font-size: 20px;
+}
+.staf-profile-box h6{
+    font-size: 18px;
+    color: var(--sc);
+}
+.staf-profile-box a{
+    font-size: 14px;
+    color: var(--sc);
+}
+.staf-profile-box:hover a{
+    text-decoration: underline;
+}
+/*about section end*/
